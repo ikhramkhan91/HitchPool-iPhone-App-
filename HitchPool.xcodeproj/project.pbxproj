@@ -8,20 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		705B18E9204EDC8900D29E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B18E8204EDC8900D29E70 /* AppDelegate.swift */; };
-		705B18EB204EDC8900D29E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B18EA204EDC8900D29E70 /* ViewController.swift */; };
 		705B18EE204EDC8900D29E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705B18EC204EDC8900D29E70 /* Main.storyboard */; };
 		705B18F0204EDC8900D29E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B18EF204EDC8900D29E70 /* Assets.xcassets */; };
 		705B18F3204EDC8900D29E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705B18F1204EDC8900D29E70 /* LaunchScreen.storyboard */; };
+		705B190D204EE90C00D29E70 /* 1031759-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B18FE204EE90C00D29E70 /* 1031759-200.png */; };
+		705B190E204EE90C00D29E70 /* 56-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B18FF204EE90C00D29E70 /* 56-512.png */; };
+		705B190F204EE90C00D29E70 /* 74467-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1900204EE90C00D29E70 /* 74467-200.png */; };
+		705B1910204EE90C00D29E70 /* automobile-1300231_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1901204EE90C00D29E70 /* automobile-1300231_960_720.png */; };
+		705B1911204EE90C00D29E70 /* BlurImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1902204EE90C00D29E70 /* BlurImage.png */; };
+		705B1912204EE90C00D29E70 /* Car.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1903204EE90C00D29E70 /* Car.png */; };
+		705B1913204EE90C00D29E70 /* CurrentLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1904204EE90C00D29E70 /* CurrentLocation.png */; };
+		705B1914204EE90C00D29E70 /* DestinationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1905204EE90C00D29E70 /* DestinationIcon.png */; };
+		705B1915204EE90C00D29E70 /* HitchPoolHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1906204EE90C00D29E70 /* HitchPoolHeader.png */; };
+		705B1916204EE90C00D29E70 /* HitchPoolLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1907204EE90C00D29E70 /* HitchPoolLogo.png */; };
+		705B1917204EE90C00D29E70 /* home-4-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1908204EE90C00D29E70 /* home-4-256.png */; };
+		705B1918204EE90C00D29E70 /* HomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B1909204EE90C00D29E70 /* HomeButton.png */; };
+		705B1919204EE90C00D29E70 /* StartingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 705B190A204EE90C00D29E70 /* StartingIcon.png */; };
+		705B191A204EE90C00D29E70 /* Street-Lights-Sidewalk-Rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 705B190B204EE90C00D29E70 /* Street-Lights-Sidewalk-Rain.jpg */; };
+		705B191B204EE90C00D29E70 /* woman-walking-home-alone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 705B190C204EE90C00D29E70 /* woman-walking-home-alone.jpg */; };
+		705B1920204EF9A700D29E70 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B191F204EF9A700D29E70 /* LaunchScreenViewController.swift */; };
+		705B1922204EF9B900D29E70 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B1921204EF9B900D29E70 /* HomeScreenViewController.swift */; };
+		705B1924204EF9CC00D29E70 /* LocationScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B1923204EF9CC00D29E70 /* LocationScreenViewController.swift */; };
+		705B1926204F06E800D29E70 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B1925204F06E800D29E70 /* MainTabBar.swift */; };
+		705B1929204F0ADA00D29E70 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B1928204F0ADA00D29E70 /* UIExtensions.swift */; };
+		705B192C204F1D8200D29E70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B192B204F1D8200D29E70 /* SettingsViewController.swift */; };
+		706A7D7820504BE500194E32 /* MenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D7720504BE500194E32 /* MenuDetailViewController.swift */; };
+		706A7D7A20504DDD00194E32 /* HPAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D7920504DDD00194E32 /* HPAppDelegate.swift */; };
+		706A7D7D2050520300194E32 /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D7C2050520300194E32 /* MyRidesViewController.swift */; };
+		706A7D812050761700194E32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D802050761700194E32 /* LoginViewController.swift */; };
+		706A7D832050762500194E32 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D822050762500194E32 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		705B18E5204EDC8900D29E70 /* HitchPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705B18E8204EDC8900D29E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		705B18EA204EDC8900D29E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		705B18ED204EDC8900D29E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		705B18EF204EDC8900D29E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705B18F2204EDC8900D29E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705B18F4204EDC8900D29E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705B18FE204EE90C00D29E70 /* 1031759-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1031759-200.png"; sourceTree = "<group>"; };
+		705B18FF204EE90C00D29E70 /* 56-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "56-512.png"; sourceTree = "<group>"; };
+		705B1900204EE90C00D29E70 /* 74467-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "74467-200.png"; sourceTree = "<group>"; };
+		705B1901204EE90C00D29E70 /* automobile-1300231_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "automobile-1300231_960_720.png"; sourceTree = "<group>"; };
+		705B1902204EE90C00D29E70 /* BlurImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlurImage.png; sourceTree = "<group>"; };
+		705B1903204EE90C00D29E70 /* Car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car.png; sourceTree = "<group>"; };
+		705B1904204EE90C00D29E70 /* CurrentLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CurrentLocation.png; sourceTree = "<group>"; };
+		705B1905204EE90C00D29E70 /* DestinationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DestinationIcon.png; sourceTree = "<group>"; };
+		705B1906204EE90C00D29E70 /* HitchPoolHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HitchPoolHeader.png; sourceTree = "<group>"; };
+		705B1907204EE90C00D29E70 /* HitchPoolLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HitchPoolLogo.png; sourceTree = "<group>"; };
+		705B1908204EE90C00D29E70 /* home-4-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-4-256.png"; sourceTree = "<group>"; };
+		705B1909204EE90C00D29E70 /* HomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeButton.png; sourceTree = "<group>"; };
+		705B190A204EE90C00D29E70 /* StartingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartingIcon.png; sourceTree = "<group>"; };
+		705B190B204EE90C00D29E70 /* Street-Lights-Sidewalk-Rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Street-Lights-Sidewalk-Rain.jpg"; sourceTree = "<group>"; };
+		705B190C204EE90C00D29E70 /* woman-walking-home-alone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "woman-walking-home-alone.jpg"; sourceTree = "<group>"; };
+		705B191F204EF9A700D29E70 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		705B1921204EF9B900D29E70 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		705B1923204EF9CC00D29E70 /* LocationScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationScreenViewController.swift; sourceTree = "<group>"; };
+		705B1925204F06E800D29E70 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		705B1928204F0ADA00D29E70 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		705B192B204F1D8200D29E70 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		706A7D7720504BE500194E32 /* MenuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailViewController.swift; sourceTree = "<group>"; };
+		706A7D7920504DDD00194E32 /* HPAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPAppDelegate.swift; sourceTree = "<group>"; };
+		706A7D7C2050520300194E32 /* MyRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewController.swift; sourceTree = "<group>"; };
+		706A7D802050761700194E32 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		706A7D822050762500194E32 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +104,143 @@
 		705B18E7204EDC8900D29E70 /* HitchPool */ = {
 			isa = PBXGroup;
 			children = (
-				705B18E8204EDC8900D29E70 /* AppDelegate.swift */,
-				705B18EA204EDC8900D29E70 /* ViewController.swift */,
-				705B18EC204EDC8900D29E70 /* Main.storyboard */,
+				705B1927204F0ACD00D29E70 /* CommonServices */,
+				705B18FA204EE15500D29E70 /* AppDelegate */,
+				705B18FB204EE16500D29E70 /* StoryBoards */,
+				705B18FC204EE8DE00D29E70 /* Modules */,
+				705B18FD204EE90C00D29E70 /* Images */,
 				705B18EF204EDC8900D29E70 /* Assets.xcassets */,
-				705B18F1204EDC8900D29E70 /* LaunchScreen.storyboard */,
 				705B18F4204EDC8900D29E70 /* Info.plist */,
 			);
 			path = HitchPool;
+			sourceTree = "<group>";
+		};
+		705B18FA204EE15500D29E70 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				705B18E8204EDC8900D29E70 /* AppDelegate.swift */,
+				706A7D7920504DDD00194E32 /* HPAppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		705B18FB204EE16500D29E70 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				705B18F1204EDC8900D29E70 /* LaunchScreen.storyboard */,
+				705B18EC204EDC8900D29E70 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		705B18FC204EE8DE00D29E70 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				706A7D7F2050760A00194E32 /* Sign Up */,
+				706A7D7E205075FD00194E32 /* Login */,
+				706A7D7B205051F500194E32 /* My Rides */,
+				706A7D7620504BD200194E32 /* MenuDetailScreen */,
+				705B192A204F1D7400D29E70 /* Settings Screen */,
+				705B191E204EF69B00D29E70 /* LocationScreen */,
+				705B191D204EF68100D29E70 /* LaunchScreen */,
+				705B191C204EF66F00D29E70 /* HomeScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		705B18FD204EE90C00D29E70 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				705B18FE204EE90C00D29E70 /* 1031759-200.png */,
+				705B18FF204EE90C00D29E70 /* 56-512.png */,
+				705B1900204EE90C00D29E70 /* 74467-200.png */,
+				705B1901204EE90C00D29E70 /* automobile-1300231_960_720.png */,
+				705B1902204EE90C00D29E70 /* BlurImage.png */,
+				705B1903204EE90C00D29E70 /* Car.png */,
+				705B1904204EE90C00D29E70 /* CurrentLocation.png */,
+				705B1905204EE90C00D29E70 /* DestinationIcon.png */,
+				705B1906204EE90C00D29E70 /* HitchPoolHeader.png */,
+				705B1907204EE90C00D29E70 /* HitchPoolLogo.png */,
+				705B1908204EE90C00D29E70 /* home-4-256.png */,
+				705B1909204EE90C00D29E70 /* HomeButton.png */,
+				705B190A204EE90C00D29E70 /* StartingIcon.png */,
+				705B190B204EE90C00D29E70 /* Street-Lights-Sidewalk-Rain.jpg */,
+				705B190C204EE90C00D29E70 /* woman-walking-home-alone.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		705B191C204EF66F00D29E70 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				705B1921204EF9B900D29E70 /* HomeScreenViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		705B191D204EF68100D29E70 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				705B191F204EF9A700D29E70 /* LaunchScreenViewController.swift */,
+				705B1925204F06E800D29E70 /* MainTabBar.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		705B191E204EF69B00D29E70 /* LocationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				705B1923204EF9CC00D29E70 /* LocationScreenViewController.swift */,
+			);
+			path = LocationScreen;
+			sourceTree = "<group>";
+		};
+		705B1927204F0ACD00D29E70 /* CommonServices */ = {
+			isa = PBXGroup;
+			children = (
+				705B1928204F0ADA00D29E70 /* UIExtensions.swift */,
+			);
+			path = CommonServices;
+			sourceTree = "<group>";
+		};
+		705B192A204F1D7400D29E70 /* Settings Screen */ = {
+			isa = PBXGroup;
+			children = (
+				705B192B204F1D8200D29E70 /* SettingsViewController.swift */,
+			);
+			path = "Settings Screen";
+			sourceTree = "<group>";
+		};
+		706A7D7620504BD200194E32 /* MenuDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				706A7D7720504BE500194E32 /* MenuDetailViewController.swift */,
+			);
+			path = MenuDetailScreen;
+			sourceTree = "<group>";
+		};
+		706A7D7B205051F500194E32 /* My Rides */ = {
+			isa = PBXGroup;
+			children = (
+				706A7D7C2050520300194E32 /* MyRidesViewController.swift */,
+			);
+			path = "My Rides";
+			sourceTree = "<group>";
+		};
+		706A7D7E205075FD00194E32 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				706A7D802050761700194E32 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		706A7D7F2050760A00194E32 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				706A7D822050762500194E32 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +302,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705B1911204EE90C00D29E70 /* BlurImage.png in Resources */,
 				705B18F3204EDC8900D29E70 /* LaunchScreen.storyboard in Resources */,
 				705B18F0204EDC8900D29E70 /* Assets.xcassets in Resources */,
+				705B1917204EE90C00D29E70 /* home-4-256.png in Resources */,
+				705B1914204EE90C00D29E70 /* DestinationIcon.png in Resources */,
+				705B1916204EE90C00D29E70 /* HitchPoolLogo.png in Resources */,
+				705B1910204EE90C00D29E70 /* automobile-1300231_960_720.png in Resources */,
+				705B1915204EE90C00D29E70 /* HitchPoolHeader.png in Resources */,
+				705B191A204EE90C00D29E70 /* Street-Lights-Sidewalk-Rain.jpg in Resources */,
+				705B191B204EE90C00D29E70 /* woman-walking-home-alone.jpg in Resources */,
+				705B1919204EE90C00D29E70 /* StartingIcon.png in Resources */,
+				705B1918204EE90C00D29E70 /* HomeButton.png in Resources */,
 				705B18EE204EDC8900D29E70 /* Main.storyboard in Resources */,
+				705B190F204EE90C00D29E70 /* 74467-200.png in Resources */,
+				705B1913204EE90C00D29E70 /* CurrentLocation.png in Resources */,
+				705B1912204EE90C00D29E70 /* Car.png in Resources */,
+				705B190E204EE90C00D29E70 /* 56-512.png in Resources */,
+				705B190D204EE90C00D29E70 /* 1031759-200.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +330,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				705B18EB204EDC8900D29E70 /* ViewController.swift in Sources */,
+				706A7D7D2050520300194E32 /* MyRidesViewController.swift in Sources */,
+				705B1926204F06E800D29E70 /* MainTabBar.swift in Sources */,
+				705B1929204F0ADA00D29E70 /* UIExtensions.swift in Sources */,
+				705B1924204EF9CC00D29E70 /* LocationScreenViewController.swift in Sources */,
+				706A7D7820504BE500194E32 /* MenuDetailViewController.swift in Sources */,
+				705B1922204EF9B900D29E70 /* HomeScreenViewController.swift in Sources */,
+				706A7D832050762500194E32 /* SignUpViewController.swift in Sources */,
+				706A7D7A20504DDD00194E32 /* HPAppDelegate.swift in Sources */,
+				705B1920204EF9A700D29E70 /* LaunchScreenViewController.swift in Sources */,
 				705B18E9204EDC8900D29E70 /* AppDelegate.swift in Sources */,
+				705B192C204F1D8200D29E70 /* SettingsViewController.swift in Sources */,
+				706A7D812050761700194E32 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
