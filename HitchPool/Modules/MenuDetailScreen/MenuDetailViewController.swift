@@ -40,7 +40,7 @@ class MenuDetailViewController: UIViewController {
         for mediaView in mediaViews {
             mediaView.clipsToBounds = true
             mediaView.layer.cornerRadius = mediaView.frame.size.height/2
-            mediaView.layer.borderWidth = 1.0
+            mediaView.layer.borderWidth = 2.0
             mediaView.layer.borderColor = UIColor.lightGray.cgColor
         }
     }

@@ -37,6 +37,11 @@
 		706A7D7D2050520300194E32 /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D7C2050520300194E32 /* MyRidesViewController.swift */; };
 		706A7D812050761700194E32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D802050761700194E32 /* LoginViewController.swift */; };
 		706A7D832050762500194E32 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D822050762500194E32 /* SignUpViewController.swift */; };
+		706A7D872051B5A700194E32 /* UpcomingRidesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D852051B5A700194E32 /* UpcomingRidesCell.swift */; };
+		706A7D882051B5A700194E32 /* UpcomingRidesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706A7D862051B5A700194E32 /* UpcomingRidesCell.xib */; };
+		706A7D8B2051B5BD00194E32 /* CompletedRidesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D892051B5BD00194E32 /* CompletedRidesCell.swift */; };
+		706A7D8C2051B5BD00194E32 /* CompletedRidesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706A7D8A2051B5BD00194E32 /* CompletedRidesCell.xib */; };
+		706A7D8E2051CEFA00194E32 /* AppAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A7D8D2051CEFA00194E32 /* AppAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +77,11 @@
 		706A7D7C2050520300194E32 /* MyRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewController.swift; sourceTree = "<group>"; };
 		706A7D802050761700194E32 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		706A7D822050762500194E32 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		706A7D852051B5A700194E32 /* UpcomingRidesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRidesCell.swift; sourceTree = "<group>"; };
+		706A7D862051B5A700194E32 /* UpcomingRidesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingRidesCell.xib; sourceTree = "<group>"; };
+		706A7D892051B5BD00194E32 /* CompletedRidesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedRidesCell.swift; sourceTree = "<group>"; };
+		706A7D8A2051B5BD00194E32 /* CompletedRidesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompletedRidesCell.xib; sourceTree = "<group>"; };
+		706A7D8D2051CEFA00194E32 /* AppAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				705B1928204F0ADA00D29E70 /* UIExtensions.swift */,
+				706A7D8D2051CEFA00194E32 /* AppAlertView.swift */,
 			);
 			path = CommonServices;
 			sourceTree = "<group>";
@@ -222,6 +233,7 @@
 		706A7D7B205051F500194E32 /* My Rides */ = {
 			isa = PBXGroup;
 			children = (
+				706A7D842051B57100194E32 /* CustomCell */,
 				706A7D7C2050520300194E32 /* MyRidesViewController.swift */,
 			);
 			path = "My Rides";
@@ -241,6 +253,17 @@
 				706A7D822050762500194E32 /* SignUpViewController.swift */,
 			);
 			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		706A7D842051B57100194E32 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				706A7D852051B5A700194E32 /* UpcomingRidesCell.swift */,
+				706A7D862051B5A700194E32 /* UpcomingRidesCell.xib */,
+				706A7D892051B5BD00194E32 /* CompletedRidesCell.swift */,
+				706A7D8A2051B5BD00194E32 /* CompletedRidesCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +330,7 @@
 				705B18F0204EDC8900D29E70 /* Assets.xcassets in Resources */,
 				705B1917204EE90C00D29E70 /* home-4-256.png in Resources */,
 				705B1914204EE90C00D29E70 /* DestinationIcon.png in Resources */,
+				706A7D882051B5A700194E32 /* UpcomingRidesCell.xib in Resources */,
 				705B1916204EE90C00D29E70 /* HitchPoolLogo.png in Resources */,
 				705B1910204EE90C00D29E70 /* automobile-1300231_960_720.png in Resources */,
 				705B1915204EE90C00D29E70 /* HitchPoolHeader.png in Resources */,
@@ -320,6 +344,7 @@
 				705B1912204EE90C00D29E70 /* Car.png in Resources */,
 				705B190E204EE90C00D29E70 /* 56-512.png in Resources */,
 				705B190D204EE90C00D29E70 /* 1031759-200.png in Resources */,
+				706A7D8C2051B5BD00194E32 /* CompletedRidesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,16 +356,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				706A7D7D2050520300194E32 /* MyRidesViewController.swift in Sources */,
+				706A7D8B2051B5BD00194E32 /* CompletedRidesCell.swift in Sources */,
 				705B1926204F06E800D29E70 /* MainTabBar.swift in Sources */,
 				705B1929204F0ADA00D29E70 /* UIExtensions.swift in Sources */,
 				705B1924204EF9CC00D29E70 /* LocationScreenViewController.swift in Sources */,
 				706A7D7820504BE500194E32 /* MenuDetailViewController.swift in Sources */,
+				706A7D8E2051CEFA00194E32 /* AppAlertView.swift in Sources */,
 				705B1922204EF9B900D29E70 /* HomeScreenViewController.swift in Sources */,
 				706A7D832050762500194E32 /* SignUpViewController.swift in Sources */,
 				706A7D7A20504DDD00194E32 /* HPAppDelegate.swift in Sources */,
 				705B1920204EF9A700D29E70 /* LaunchScreenViewController.swift in Sources */,
 				705B18E9204EDC8900D29E70 /* AppDelegate.swift in Sources */,
 				705B192C204F1D8200D29E70 /* SettingsViewController.swift in Sources */,
+				706A7D872051B5A700194E32 /* UpcomingRidesCell.swift in Sources */,
 				706A7D812050761700194E32 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -48,6 +48,24 @@ class SignUpViewController: UIViewController {
         }
     }
     @objc func signUpButtonPressed() {
-        self.dismiss(animated: true, completion: nil)
+        var alertMessage = ""
+        if (emailTextField.text?.isEmpty)! {
+            alertMessage = "Please enter email"
+        } else if !(emailTextField.text?.isEmail)! {
+            alertMessage = "Please enter valid email"
+        } else if (passwordTextField.text?.isEmpty)! {
+            alertMessage = "Please enter password"
+        } else if (confirmPasswordTextField.text?.isEmpty)! {
+            alertMessage = "Please enter confirm password"
+        } else if (confirmPasswordTextField.text != passwordTextField.text) {
+            alertMessage = "Password and confirm password not matched"
+        } else {
+            //AppAlertView.sharedInstance.showAppAlertView(vc: self, message: "You registered successfully")
+            
+            self.dismiss(animated: true, completion: nil)
+        }
+        if !alertMessage.isEmpty {
+            AppAlertView.sharedInstance.showAppAlertView(vc: self, message: alertMessage)
+        }
     }
 }

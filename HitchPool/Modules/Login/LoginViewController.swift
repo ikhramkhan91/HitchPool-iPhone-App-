@@ -40,7 +40,25 @@ class LoginViewController: UIViewController {
 
     
     @objc func loginButtonPressed() {
-        self.dismiss(animated: true, completion: nil)
+        var alertMessage = ""
+        if (emailTextField.text?.isEmpty)! {
+            alertMessage = "Please enter email"
+        } else if !(emailTextField.text?.isEmail)! {
+            alertMessage = "Please enter valid email"
+        } else if (passwordTextField.text?.isEmpty)! {
+            alertMessage = "Please enter password"
+        } else {
+            if emailTextField.text == "Demo@gmail.com" && passwordTextField.text == "demo123" {
+                self.view.endEditing(true)
+                self.dismiss(animated: true, completion: nil)
+
+            } else {
+               alertMessage = "Invalid username or password"
+            }
+        }
+        if !alertMessage.isEmpty {
+            AppAlertView.sharedInstance.showAppAlertView(vc: self, message: alertMessage)
+        }
     }
     @objc func signUpButtonPressed() {
         if isFromSignUp {
