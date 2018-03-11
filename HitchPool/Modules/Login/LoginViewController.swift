@@ -10,7 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    
+    @IBOutlet weak var closeButton:UIButton!
     @IBOutlet weak var signUpButton:UIButton!
     @IBOutlet weak var loginButton:UIButton!
     @IBOutlet weak var emailTextField:UITextField!
@@ -36,8 +36,12 @@ class LoginViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = barbuttonItem
         loginButton.addTarget(self, action: #selector(loginButtonPressed), for: .touchUpInside)
         signUpButton.addTarget(self, action: #selector(signUpButtonPressed), for: .touchUpInside)
+        closeButton.addTarget(self, action: #selector(dismissButtonPressed), for: .touchUpInside)
     }
 
+    @objc func dismissButtonPressed() {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     @objc func loginButtonPressed() {
         var alertMessage = ""

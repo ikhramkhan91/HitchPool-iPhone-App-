@@ -10,6 +10,7 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var closeButton:UIButton!
     @IBOutlet weak var signUpButton:UIButton!
     @IBOutlet weak var loginButton:UIButton!
     @IBOutlet weak var emailTextField:UITextField!
@@ -37,8 +38,12 @@ class SignUpViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = barbuttonItem
         loginButton.addTarget(self, action: #selector(loginButtonPressed), for: .touchUpInside)
         signUpButton.addTarget(self, action: #selector(signUpButtonPressed), for: .touchUpInside)
+        closeButton.addTarget(self, action: #selector(dismissButtonPressed), for: .touchUpInside)
     }
 
+    @objc func dismissButtonPressed() {
+        self.dismiss(animated: true, completion: nil)
+    }
     @objc func loginButtonPressed() {
         if isFromSignIn {
             self.navigationController?.popViewController(animated: true)
