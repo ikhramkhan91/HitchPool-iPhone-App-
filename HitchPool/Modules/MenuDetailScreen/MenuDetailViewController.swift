@@ -2,7 +2,7 @@
 //  MenuDetailViewController.swift
 //  HitchPool
 //
-//  Created by Rizwan Nasar on 07/03/18.
+//  Created by Pravina Venugopal on 07/03/18.
 //  Copyright © 2018 hitchpool. All rights reserved.
 //
 

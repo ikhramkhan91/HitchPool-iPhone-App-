@@ -2,7 +2,7 @@
 //  MainTabBar.swift
 //  HitchPool
 //
-//  Created by Rizwan Nasar on 06/03/18.
+//  Created by Pravina Venugopal on 06/03/18.
 //  Copyright © 2018 hitchpool. All rights reserved.
 //
 

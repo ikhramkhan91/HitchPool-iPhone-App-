@@ -2,7 +2,7 @@
 //  SignUpViewController.swift
 //  HitchPool
 //
-//  Created by Rizwan Nasar on 08/03/18.
+//  Created by Pravina Venugopal on 08/03/18.
 //  Copyright © 2018 hitchpool. All rights reserved.
 //
 
